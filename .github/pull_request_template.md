@@ -7,7 +7,7 @@ Brief description of what this PR does.
 Closes #ISSUE_NUMBER
 
 **Changes**
-- 
+1. 
 
 **How to Test**
 1.
