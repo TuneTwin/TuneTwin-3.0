@@ -1,12 +1,3 @@
----
-name: Task / Feature
-about: Use this template for new tasks, features, or improvements
-title: "[Feature]"
-labels: ''
-assignees: ''
-
----
-
 ## Description
 What needs to be done?
 
