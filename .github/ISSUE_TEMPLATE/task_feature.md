@@ -1,18 +1,18 @@
-## Task/Feature Name
+### Task/Feature Name
 
-### Description
+##### Description
 What needs to be done?
 
-### Motivation
+##### Motivation
 Why is this task important?
 
-### Tasks
+##### Tasks
 - [ ] 
 
-### Acceptance Criteria
+##### Acceptance Criteria
 - [ ] Works locally with no errors
 - [ ] Passes lint/tests
 - [ ] Documentation updated (if necessary)
 
-### Additional Notes
+##### Additional Notes
 (Optional)
