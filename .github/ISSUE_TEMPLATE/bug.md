@@ -1,4 +1,4 @@
-## Bug Ttile
+## Bug Title
 
 **Description**
 A clear explanation of the bug. What is happening?
