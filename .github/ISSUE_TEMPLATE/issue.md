@@ -1,6 +1,6 @@
 ---
 name: Issue
-about: Describe this issue template's purpose here.
+about: Add a new feature or task
 title: ''
 labels: ''
 assignees: ''
