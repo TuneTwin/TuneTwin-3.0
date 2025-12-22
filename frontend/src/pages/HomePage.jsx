@@ -1,5 +1,14 @@
 import { Link } from "react-router-dom";
 
+const mockSong = {
+    title: "Lost",
+    artist: "Frank Ocean",
+    description: "a hazy, introspective track that drifts between freedom and uncertainty, capturing the feeling of being untethered.",
+    quote: "I'm lost in the heat of it all.",
+    tags: ["introspective", "late night", "dreamy"],
+    albumCover: ""
+};
+
 function HomePage() {
     return (
     <>
@@ -21,23 +30,25 @@ function HomePage() {
 
           <div className="tune-card">
             <div className="tune-info">
-                <h3>Song Title</h3>
-                <div className="artist">Artist Name</div>
+                <h3>{mockSong.title}</h3>
+                <div className="artist">{mockSong.artist}</div>
 
                 <p>
-                    This is a short description of the song to set the mood and give a quick vibe
+                    {mockSong.description}
                 </p>
 
                 <div className="lyrics-preview">
                     <p>
-                        "Sample lyric or quote goes here"
+                        "{mockSong.quote}"
                     </p>
                 </div>
 
                 <div className="mood-tags">
-                    <span className="tag">dreamy</span>
-                    <span className="tag">late night</span>
-                    <span className="tag">chill</span>
+                    {mockSong.tags.map((tag) => (
+                      <span key={tag} className="tag">
+                        {tag}
+                      </span>
+                    ))}
                 </div>
 
                 <div className="buttons">
